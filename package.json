@@ -5,5 +5,14 @@
   },
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "name": "hillel_node",
+  "version": "1.0.0",
+  "description": "first less",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gennadiy",
+  "license": "ISC"
 }
