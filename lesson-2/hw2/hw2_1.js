@@ -1,7 +1,6 @@
 
 let localPaths = [
-      // 'user.json',
-      // 'guest.json',
+      'users/1',
       'posts/1',
       'photos/1',
       'albums/1',
@@ -11,7 +10,7 @@ const baseUrl = 'https://jsonplaceholder.typicode.com/';
 
 const results = [];
 
-async function downloadUrl(url) {
+async function downloadData(url) {
       try {
             const response = await fetch(url);
             if (!response.ok) {
@@ -28,11 +27,11 @@ async function downloadSequentially() {
       const fullUrls = localPaths.map(localPath => baseUrl + localPath);
 
       for (const url of fullUrls) {
-            await downloadUrl(url);
+            await downloadData(url);
       }
 
 
-      console.log(results);
+      console.log(results, fullUrls);
 }
 
 
