@@ -3,4 +3,5 @@
 dist
 .env
 package-lock.json
+/lesson-3/src/db.json
 
