@@ -1,8 +1,10 @@
 import express from "express";
 import fs from 'fs/promises';
-const fileName = './lesson-3/src/db.json';
+
+const fileName = './db.json';
 async function init() {
       try {
+
             await fs.access(fileName, fs.constants.F_OK);
       }
       catch (error) {
@@ -12,7 +14,7 @@ async function init() {
 
 };
 
-await init();
+init();
 const app = express();
 app.use(express.json());
 
