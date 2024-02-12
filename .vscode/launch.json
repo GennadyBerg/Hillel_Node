@@ -11,7 +11,8 @@
                   "skipFiles": [
                         "<node_internals>/**"
                   ],
-                  "program": "${workspaceFolder}\\lesson-3\\src\\index.js"
+                  // "program": "${workspaceFolder}\\lesson-3\\src\\index.js"
+                  "program": "${workspaceFolder}\\lesson-3\\src\\Services\\url-downloader.cjs"
             }
       ]
 }
