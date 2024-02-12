@@ -4,6 +4,7 @@
       // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
       "version": "0.2.0",
       "configurations": [
+            
             {
                   "type": "node",
                   "request": "launch",
@@ -11,10 +12,15 @@
                   "skipFiles": [
                         "<node_internals>/**"
                   ],
+<<<<<<< HEAD
                   // "program": "${workspaceFolder}\\lesson-3\\src\\index.js"
                   // "program": "${workspaceFolder}\\lesson-3\\src\\Services\\url-downloader.cjs"
                   "program": "${workspaceFolder}\\lesson-4\\hw-4\\src\\script.cjs"
 
+=======
+                  
+                  "program": "${workspaceFolder}\\lesson-3\\src\\index.js"
+>>>>>>> badf67d45d707f1ca493c7ddd73e58bc85489a93
             }
       ]
 }
