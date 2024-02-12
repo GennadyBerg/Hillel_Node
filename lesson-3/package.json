@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./src/index.js",
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "download": "node ./src/Services/url-downloader.cjs",
+    "dev_download": "nodemon ./src/Services/url-downloader.cjs"
   },
   "author": "",
   "license": "ISC",

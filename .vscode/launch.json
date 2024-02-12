@@ -12,7 +12,7 @@
                   "skipFiles": [
                         "<node_internals>/**"
                   ],
-                  "cwd": "${workspaceFolder}\\lesson-3",
+                  
                   "program": "${workspaceFolder}\\lesson-3\\src\\index.js"
             }
       ]

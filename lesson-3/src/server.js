@@ -21,9 +21,14 @@ app.use(express.json());
 app.post("/users", async (req, res) => {
 
       try {
-            await fs.writeFile(fileName, JSON.stringify(req.body));
+            const fileContent = await fs.readFile(fileName, 'utf-8');
+            const data = JSON.parse(fileContent);
 
-            res.send(`${req.body.users.length} users added successfully.`);
+            data.users.push(req.body);
+    
+            await fs.writeFile(fileName, JSON.stringify(data));
+    
+            res.send(`${data.users.length} users added successfully.`);
       } catch (error) {
             console.error('Error adding user:', error);
             res.status(500).send('Internal Server Error');
