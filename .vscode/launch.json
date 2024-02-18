@@ -15,11 +15,11 @@
 <<<<<<< HEAD
                   // "program": "${workspaceFolder}\\lesson-3\\src\\index.js"
                   // "program": "${workspaceFolder}\\lesson-3\\src\\Services\\url-downloader.cjs"
-                  "program": "${workspaceFolder}\\lesson-4\\hw-4\\src\\script.cjs"
+                  "program": "${workspaceFolder}\\lesson-5\\project\\src\\server.cjs"
 
 =======
                   
-                  "program": "${workspaceFolder}\\lesson-3\\src\\index.js"
+                  "program": "${workspaceFolder}\\lesson-5\\project\\src\\server.cjs"
 >>>>>>> badf67d45d707f1ca493c7ddd73e58bc85489a93
             }
       ]
